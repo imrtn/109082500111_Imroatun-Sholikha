@@ -1,5 +1,6 @@
-Repository Praktikum Algoritma Pemrograman 2
+# Repository Praktikum Algoritma Pemrograman 2
+
 Nama : Imroatun Sholikha
-NIM : 109082500111
-Kelas : IF - 13 - 04
-Universitas Telkom Purwokerto
+<br>NIM : 109082500111
+<br>Kelas : IF - 13 - 04
+<br>Universitas Telkom Purwokerto
