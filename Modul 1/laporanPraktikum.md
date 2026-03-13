@@ -33,7 +33,7 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1](https://github.com/shellyneu/103112430114_Shellyn/blob/main/modul1/output/output-soal1.png)
+![Screenshot Output Unguided 1_1](https://github.com/imrtn/109082500111/blob/main/Modul1/Output/Soal1.png)
 [Program ini meminta pengguna memasukkan tiga buah string yang disimpan dalam variabel satu, dua, dan tiga. Setelah semua input dimasukkan, program menampilkan urutan awal dari ketiga string tersebut sebagai output awal.
 
 Selanjutnya program menukar posisi nilai ketiga variabel dengan bantuan variabel sementara temp. Nilai satu dipindahkan ke temp, kemudian dua menjadi satu, tiga menjadi dua, dan nilai awal satu (yang ada di temp) menjadi tiga. Hasil akhirnya ditampilkan sebagai output akhir, sehingga urutan string berubah dari urutan awalnya.]
@@ -115,4 +115,5 @@ func main() {
 Setelah itu program menghitung biaya pengiriman. Biaya untuk setiap kilogram adalah Rp10.000, sehingga nilai tersebut dikalikan dengan jumlah kilogram untuk mendapatkan biayaKg. Untuk sisa gram, jika berat parsel lebih dari 10 kg maka sisa gram tidak dikenakan biaya. Namun jika beratnya 10 kg atau kurang, maka sisa gram akan dihitung biayanya, yaitu Rp5 per gram jika sisa gram ≥ 500, dan Rp15 per gram jika sisa gram < 500.
 
 Terakhir, program menjumlahkan biayaKg dan biayaSisa untuk mendapatkan totalBiaya. Program kemudian menampilkan detail berat dalam bentuk kilogram dan gram, detail biaya masing-masing bagian, serta total biaya yang harus dibayar untuk pengiriman parsel tersebut.]
+
 
