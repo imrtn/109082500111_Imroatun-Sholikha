@@ -81,7 +81,7 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![https://github.com/imrtn/109082500111/blob/main/Modul3/Output/Soal1.png](https://github.com/imrtn/109082500111_Imroatun-Sholikha/blob/90e9f965fcd3cdae379a6da36eb8c832d30f9a43/Modul3%203/Output/Soa21.png)
+![https://github.com/imrtn/109082500111/blob/main/Modul3/Output/Soal1.png](https://github.com/imrtn/109082500111_Imroatun-Sholikha/blob/27f91b3e378a90f936a35e09ffb982bae8ae5401/Modul%203/Output/Soal2.png))
 [Program ini meminta pengguna memasukkan tiga bilangan bulat yaitu a, b, dan c. Program memiliki tiga fungsi yaitu f(x) = x², g(x) = x - 2, dan h(x) = x + 1 yang digunakan untuk melakukan operasi fungsi komposisi.
 
 Setelah input diterima, program menghitung tiga komposisi fungsi yaitu f(g(h(a))), g(h(f(b))), dan h(f(g(c))). Contohnya, jika a=7, b=2, c=10, maka:
@@ -140,7 +140,7 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1](https://github.com/shellyneu/103112430114_Shellyn/blob/main/modul1/output/output-soal1.png)
+![https://github.com/imrtn/109082500111/blob/main/Modul3/Output/Soal3.png](https://github.com/imrtn/109082500111_Imroatun-Sholikha/blob/27f91b3e378a90f936a35e09ffb982bae8ae5401/Modul%203/Output/Soal3.png)
 [Program ini meminta pengguna memasukkan data dua lingkaran berupa titik pusat dan jari-jari (cx1, cy1, r1 dan cx2, cy2, r2), serta satu titik (x, y). Program menggunakan fungsi jarak untuk menghitung jarak antara dua titik, dan fungsi didalam untuk mengecek apakah titik berada di dalam suatu lingkaran.
 
 Setelah itu, program menentukan posisi titik terhadap kedua lingkaran dan menampilkan hasilnya. Contohnya:
