@@ -37,7 +37,7 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![https://github.com/imrtn/109082500111/blob/main/Modul1/Output/Soal1.png](https://github.com/imrtn/109082500111_Imroatun-Sholikha/blob/6c043bac314779e81f09b802761a490c42743331/Modul%201/Output/Soal1.png)
+![https://github.com/imrtn/109082500111/blob/main/Modul3/Output/Soal1.png](https://github.com/imrtn/109082500111_Imroatun-Sholikha/blob/6c043bac314779e81f09b802761a490c42743331/Modul%201/Output/Soal1.png)
 [Program ini meminta pengguna memasukkan empat bilangan bulat yaitu a, b, c, dan d. Setelah itu, program menghitung nilai permutasi dan kombinasi dari pasangan (a, c) dan (b, d) menggunakan fungsi faktorial.
 
 Hasil perhitungan untuk (a, c) ditampilkan pada baris pertama, sedangkan hasil untuk (b, d) ditampilkan pada baris kedua. Contohnya, jika a=5, c=3 dan b=10, d=10, maka:
