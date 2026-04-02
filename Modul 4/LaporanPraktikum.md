@@ -69,7 +69,7 @@ Sebagai contoh, jika a = 5, c = 3 dan b = 10, d = 10, maka:
 P(5,3) = 5!/2! = 120/2 = 60
 C(5,3) = 5!/(3! × 2!) = 120/12 = 10
 P(10,10) = 10!/0! = 3628800/1 = 3628800
-C(10,10) = 10!/(10! × 0!) = 1]
+C(10,10) = 10!/(10! × 0!) = 10!/10! = 1]
 
 
 ### 2. [Soal]
@@ -178,7 +178,7 @@ func main() {
 
 Perhitungan dilakukan dengan ketentuan:
 
-Jika n genap, maka suku berikutnya adalah n / 2
+Jika n genap, maka suku berikutnya adalah 1/2n
 Jika n ganjil, maka suku berikutnya adalah 3n + 1
 
 Proses ini dilakukan secara berulang hingga mencapai nilai 1 sebagai suku terakhir.]
