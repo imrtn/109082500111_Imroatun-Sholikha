@@ -1,4 +1,4 @@
-# <h1 align="center">Laporan Praktikum Modul 3 - ... </h1>
+# <h1 align="center">Laporan Praktikum Modul 4 - ... </h1>
 <p align="center">[Imroatun Sholikha] - [109082500111]</p>
 
 ## Unguided 
@@ -53,7 +53,8 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![https://github.com/imrtn/109082500111/blob/main/Modul3/Output/Soal1.png](https://github.com/imrtn/109082500111_Imroatun-Sholikha/blob/90e9f965fcd3cdae379a6da36eb8c832d30f9a43/Modul%203/Output/Soal1.png)
+![https://github.com/imrtn/109082500111/blob/main/Modul3/Output/Soal1.png](https://github.com/imrtn/109082500111_Imroatun-Sholikha/blob/a014d1c054cff52d7698e2befa2c539659fb3583/Modul%204/Output/Soal1.png)
+
 [Program ini meminta pengguna untuk memasukkan empat bilangan bulat yaitu a, b, c, dan d. Setelah itu, program akan menghitung nilai permutasi dan kombinasi dari pasangan (a, c) serta (b, d) dengan memanfaatkan prosedur faktorial.
 
 Perhitungan dilakukan menggunakan rumus:
@@ -121,7 +122,7 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![https://github.com/imrtn/109082500111/blob/main/Modul3/Output/Soal1.png](https://github.com/imrtn/109082500111_Imroatun-Sholikha/blob/27f91b3e378a90f936a35e09ffb982bae8ae5401/Modul%203/Output/Soal2.png))
+![https://github.com/imrtn/109082500111/blob/main/Modul3/Output/Soal1.png](https://github.com/imrtn/109082500111_Imroatun-Sholikha/blob/a014d1c054cff52d7698e2befa2c539659fb3583/Modul%204/Output/Soal2.png)
 [Program ini digunakan untuk menentukan pemenang dalam kompetisi pemrograman berdasarkan jumlah soal yang berhasil diselesaikan dan total waktu pengerjaan.
 
 Program membaca nama peserta satu per satu. Untuk setiap peserta, program akan membaca 8 buah waktu pengerjaan soal (dalam menit). Jika peserta tidak menyelesaikan soal, maka waktu akan bernilai 301 menit.
@@ -172,7 +173,7 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![https://github.com/imrtn/109082500111/blob/main/Modul3/Output/Soal3.png](https://github.com/imrtn/109082500111_Imroatun-Sholikha/blob/27f91b3e378a90f936a35e09ffb982bae8ae5401/Modul%203/Output/Soal3.png)
+![https://github.com/imrtn/109082500111/blob/main/Modul3/Output/Soal3.png](https://github.com/imrtn/109082500111_Imroatun-Sholikha/blob/a014d1c054cff52d7698e2befa2c539659fb3583/Modul%204/Output/Soal3.png)
 [Program ini meminta pengguna untuk memasukkan sebuah bilangan bulat positif n sebagai nilai awal deret. Setelah itu, program akan membentuk deret bilangan berdasarkan aturan Skiena dan Revilla dengan menggunakan prosedur cetakDeret.
 
 Perhitungan dilakukan dengan ketentuan:
