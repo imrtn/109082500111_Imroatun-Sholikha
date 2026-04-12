@@ -1,4 +1,4 @@
-# <h1 align="center">Laporan Praktikum Modul 4 - ... </h1>
+# <h1 align="center">Laporan Praktikum Modul 5 - ... </h1>
 <p align="center">[Imroatun Sholikha] - [109082500111]</p>
 
 ## Unguided 
@@ -32,7 +32,8 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![https://github.com/imrtn/109082500111/blob/main/Modul3/Output/Soal1.png](https://github.com/imrtn/109082500111_Imroatun-Sholikha/blob/a014d1c054cff52d7698e2befa2c539659fb3583/Modul%204/Output/Soal1.png)
+![https://github.com/imrtn/109082500111/blob/main/Modul5/Output/Soal1.png](https://github.com/imrtn/109082500111_Imroatun-Sholikha/blob/0ed66f84fa7f74895bfa11d8c1b5e5a21e99ae80/Modul%205/Output/Soal1.png
+)
 
 [Program mengimplementasikan deret Fibonacci menggunakan fungsi rekursif.
 
@@ -73,7 +74,7 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![https://github.com/imrtn/109082500111/blob/main/Modul3/Output/Soal1.png](https://github.com/imrtn/109082500111_Imroatun-Sholikha/blob/a014d1c054cff52d7698e2befa2c539659fb3583/Modul%204/Output/Soal2.png)
+![https://github.com/imrtn/109082500111/blob/main/Modul5/Output/Soal2.png](https://github.com/imrtn/109082500111_Imroatun-Sholikha/blob/0ed66f84fa7f74895bfa11d8c1b5e5a21e99ae80/Modul%205/Output/Soal2.png)
 [Program ini digunakan untuk menampilkan pola bintang berbentuk segitiga dengan jumlah baris sesuai input n menggunakan fungsi rekursif.
 
 Setiap baris menampilkan jumlah bintang yang meningkat dari 1 hingga n. Proses dilakukan dengan memanggil fungsi secara berulang hingga mencapai kondisi dasar, kemudian mencetak bintang secara bertahap.
@@ -114,7 +115,7 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![https://github.com/imrtn/109082500111/blob/main/Modul3/Output/Soal3.png](https://github.com/imrtn/109082500111_Imroatun-Sholikha/blob/a014d1c054cff52d7698e2befa2c539659fb3583/Modul%204/Output/Soal3.png)
+![https://github.com/imrtn/109082500111/blob/main/Modul5/Output/Soal3.png](https://github.com/imrtn/109082500111_Imroatun-Sholikha/blob/0ed66f84fa7f74895bfa11d8c1b5e5a21e99ae80/Modul%205/Output/Soal3.png)
 [Program ini digunakan untuk menampilkan faktor dari suatu bilangan N dengan menggunakan rekursif.
 
 Program akan mengecek satu per satu bilangan dari 1 sampai N. Jika bilangan tersebut bisa membagi N, maka akan ditampilkan sebagai faktor. Proses ini dilakukan terus secara rekursif sampai semua bilangan diperiksa.
@@ -130,23 +131,22 @@ package main
 
 import "fmt"
 
-func ganjil(n int, i int) {
-	if i > n {
+func pola(n int) {
+	if n == 1 {
+		fmt.Print(1, " ")
 		return
 	}
 
-	if i%2 != 0 {
-		fmt.Print(i, " ")
-	}
-
-	ganjil(n, i+1)
+	fmt.Print(n, " ")
+	pola(n - 1)
+	fmt.Print(n, " ")
 }
 
 func main() {
 	var n int
 	fmt.Scan(&n)
 
-	ganjil(n, 1)
+	pola(n)
 }
 
 
@@ -155,7 +155,7 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![https://github.com/imrtn/109082500111/blob/main/Modul3/Output/Soal3.png](https://github.com/imrtn/109082500111_Imroatun-Sholikha/blob/a014d1c054cff52d7698e2befa2c539659fb3583/Modul%204/Output/Soal3.png)
+![https://github.com/imrtn/109082500111/blob/main/Modul5/Output/Soal4.png](https://github.com/imrtn/109082500111_Imroatun-Sholikha/blob/0ed66f84fa7f74895bfa11d8c1b5e5a21e99ae80/Modul%205/Output/Soal4.png)
 [Program ini digunakan untuk menampilkan barisan bilangan dari N turun hingga 1 kemudian naik kembali ke N menggunakan metode rekursif.
 Fungsi rekursif akan mencetak nilai N terlebih dahulu, kemudian memanggil dirinya dengan nilai N-1 hingga mencapai kondisi dasar (N = 1). Setelah itu, program akan mencetak kembali nilai N saat proses kembali, sehingga terbentuk pola turun lalu naik]
 
@@ -194,7 +194,7 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![https://github.com/imrtn/109082500111/blob/main/Modul3/Output/Soal3.png](https://github.com/imrtn/109082500111_Imroatun-Sholikha/blob/a014d1c054cff52d7698e2befa2c539659fb3583/Modul%204/Output/Soal3.png)
+![https://github.com/imrtn/109082500111/blob/main/Modul5/Output/Soal5.png](https://github.com/imrtn/109082500111_Imroatun-Sholikha/blob/0ed66f84fa7f74895bfa11d8c1b5e5a21e99ae80/Modul%205/Output/Soal5.png)
 [Program ini digunakan untuk menampilkan bilangan ganjil dari 1 hingga N menggunakan metode rekursif.
 Fungsi rekursif akan mencetak nilai awal 1, kemudian memanggil dirinya dengan menambahkan 2 pada setiap langkah (i + 2), sehingga hanya bilangan ganjil yang ditampilkan hingga mencapai batas N.]
 
@@ -227,6 +227,6 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![https://github.com/imrtn/109082500111/blob/main/Modul3/Output/Soal3.png](https://github.com/imrtn/109082500111_Imroatun-Sholikha/blob/a014d1c054cff52d7698e2befa2c539659fb3583/Modul%204/Output/Soal3.png)
+![https://github.com/imrtn/109082500111/blob/main/Modul6/Output/Soal6.png](https://github.com/imrtn/109082500111_Imroatun-Sholikha/blob/0ed66f84fa7f74895bfa11d8c1b5e5a21e99ae80/Modul%205/Output/Soal6.png)
 [Program ini digunakan untuk menghitung hasil perpangkatan dari dua bilangan bulat x^y menggunakan metode rekursif.
 Fungsi rekursif bekerja dengan mengalikan nilai x secara berulang hingga jumlah pangkat (y) mencapai 0. Kondisi dasar terjadi saat y = 0, di mana hasilnya adalah 1. Nilai hasil kemudian dikembalikan melalui proses rekursif hingga diperoleh hasil akhir.]
