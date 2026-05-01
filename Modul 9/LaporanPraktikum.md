@@ -8,6 +8,7 @@
 
 ```go
 package main
+
 import (
 	"fmt"
 	"math"
@@ -52,11 +53,12 @@ func main() {
 	}
 }
 
+
 ```
 ### Output Unguided :
 
 ##### Output 
-![https://github.com/imrtn/109082500111/blob/main/Modul3/Output/Soal1.png](https://github.com/imrtn/109082500111_Imroatun-Sholikha/blob/90e9f965fcd3cdae379a6da36eb8c832d30f9a43/Modul%203/Output/Soal1.png)
+![https://github.com/imrtn/109082500111/blob/main/Modul9/Output/Soal1.png](https://github.com/imrtn/109082500111_Imroatun-Sholikha/blob/7117f84b95fcf1f32ee02b795b3707425ff1042b/Modul%209/Output/Soal1.png)
 [Program ini meminta input dua lingkaran (titik pusat dan radius) serta satu titik. Program menghitung jarak titik ke masing-masing pusat lingkaran menggunakan rumus jarak.
 
 Jika jarak ≤ radius, maka titik berada di dalam lingkaran.
@@ -78,7 +80,8 @@ import (
 )
 
 func main() {
-	var n int
+	var n, x, idx, cari int
+	var total float64
 	fmt.Print("Jumlah data: ")
 	fmt.Scan(&n)
 
@@ -93,14 +96,13 @@ func main() {
 		fmt.Print(arr[i], " ")
 	}
 	fmt.Println()
-
+	
 	fmt.Print("Indeks genap: ")
 	for i := 0; i < n; i += 2 {
 		fmt.Print(arr[i], " ")
 	}
 	fmt.Println()
 
-	var x int
 	fmt.Print("Masukkan x: ")
 	fmt.Scan(&x)
 	for i := 0; i < n; i++ {
@@ -110,7 +112,6 @@ func main() {
 	}
 	fmt.Println()
 
-	var idx int
 	fmt.Print("Hapus indeks: ")
 	fmt.Scan(&idx)
 	arr = append(arr[:idx], arr[idx+1:]...)
@@ -123,14 +124,12 @@ func main() {
 	mean := float64(sum) / float64(len(arr))
 	fmt.Println("Rata-rata:", mean)
 
-	var total float64
 	for _, v := range arr {
 		total += math.Pow(float64(v)-mean, 2)
 	}
 	std := math.Sqrt(total / float64(len(arr)))
 	fmt.Println("Std Deviasi:", std)
 
-	var cari int
 	fmt.Print("Cari angka: ")
 	fmt.Scan(&cari)
 	count := 0
@@ -142,11 +141,13 @@ func main() {
 	fmt.Println("Frekuensi:", count)
 }
 
+
 ```
 ### Output Unguided :
 
 ##### Output 
-![https://github.com/imrtn/109082500111/blob/main/Modul3/Output/Soal1.png](https://github.com/imrtn/109082500111_Imroatun-Sholikha/blob/27f91b3e378a90f936a35e09ffb982bae8ae5401/Modul%203/Output/Soal2.png))
+![https://github.com/imrtn/109082500111/blob/main/Modul9/Output/Soal2.1.png](https://github.com/imrtn/109082500111_Imroatun-Sholikha/blob/7117f84b95fcf1f32ee02b795b3707425ff1042b/Modul%209/Output/Soal2.1.png))
+![https://github.com/imrtn/109082500111/blob/main/Modul9/Output/Soa2.21.png](https://github.com/imrtn/109082500111_Imroatun-Sholikha/blob/7117f84b95fcf1f32ee02b795b3707425ff1042b/Modul%209/Output/Soal2.2.png))
 [Program ini mengisi array dengan N bilangan dari pengguna, lalu menampilkan beberapa operasi seperti:
 
 isi array
@@ -163,6 +164,7 @@ frekuensi angka tertentu]
 
 ```go
 package main
+
 import "fmt"
 
 func main() {
@@ -173,31 +175,28 @@ func main() {
 	fmt.Scan(&klubB)
 
 	var a, b int
-	pemenang := []string{}
 	i := 1
 
-	for {
-		fmt.Printf("Pertandingan %d: ", i)
-		fmt.Scan(&a, &b)
+	fmt.Print("Pertandingan ", i, ": ")
+	fmt.Scan(&a, &b)
 
-		if a < 0 || b < 0 {
-			break
-		}
+	for a >= 0 && b >= 0 {
+		fmt.Print("Hasil ", i, ": ")
 
 		if a > b {
-			fmt.Println("Hasil:", klubA)
-			pemenang = append(pemenang, klubA)
+			fmt.Println(klubA)
 		} else if b > a {
-			fmt.Println("Hasil:", klubB)
-			pemenang = append(pemenang, klubB)
+			fmt.Println(klubB)
 		} else {
-			fmt.Println("Hasil: Draw")
+			fmt.Println("Draw")
 		}
+
 		i++
+		fmt.Print("Pertandingan ", i, ": ")
+		fmt.Scan(&a, &b)
 	}
 
 	fmt.Println("Pertandingan selesai")
-	fmt.Println("Pemenang:", pemenang)
 }
 
 
@@ -206,7 +205,7 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![https://github.com/imrtn/109082500111/blob/main/Modul3/Output/Soal3.png](https://github.com/imrtn/109082500111_Imroatun-Sholikha/blob/27f91b3e378a90f936a35e09ffb982bae8ae5401/Modul%203/Output/Soal3.png)
+![https://github.com/imrtn/109082500111/blob/main/Modul9/Output/Soal3.png](https://github.com/imrtn/109082500111_Imroatun-Sholikha/blob/7117f84b95fcf1f32ee02b795b3707425ff1042b/Modul%209/Output/Soal3.png)
 [Program ini mencatat hasil pertandingan dua klub.
 Pengguna memasukkan skor tiap pertandingan.
 
@@ -229,21 +228,21 @@ const NMAX = 127
 type tabel [NMAX]rune
 
 func isiArray(t *tabel, n *int) {
-	var ch rune
+	var ch string
 	*n = 0
-	for {
-		fmt.Scanf("%c ", &ch)
-		if ch == '.' {
-			break
-		}
-		t[*n] = ch
+
+	fmt.Scan(&ch)
+	for ch != "." && *n < NMAX {
+		t[*n] = rune(ch[0])
 		*n++
+
+		fmt.Scan(&ch)
 	}
 }
 
 func cetakArray(t tabel, n int) {
 	for i := 0; i < n; i++ {
-		fmt.Printf("%c ", t[i])
+		fmt.Print(string(t[i]), " ")
 	}
 	fmt.Println()
 }
@@ -270,24 +269,24 @@ func main() {
 	fmt.Print("Teks: ")
 	isiArray(&tab, &n)
 
-	fmt.Print("Reverse: ")
+	fmt.Print("Reverse teks: ")
 	balikanArray(&tab, n)
 	cetakArray(tab, n)
 
 	if palindrom(tab, n) {
-		fmt.Println("Palindrom? true")
+		fmt.Println("Palindrom")
 	} else {
-		fmt.Println("Palindrom? false")
+		fmt.Println("Bukan palindrom")
 	}
 }
-
 
 
 ```
 ### Output Unguided :
 
 ##### Output 
-![https://github.com/imrtn/109082500111/blob/main/Modul3/Output/Soal3.png](https://github.com/imrtn/109082500111_Imroatun-Sholikha/blob/27f91b3e378a90f936a35e09ffb982bae8ae5401/Modul%203/Output/Soal3.png)
+![https://github.com/imrtn/109082500111/blob/main/Modul9/Output/Soal4.1png](https://github.com/imrtn/109082500111_Imroatun-Sholikha/blob/7117f84b95fcf1f32ee02b795b3707425ff1042b/Modul%209/Output/Soal4.1.png)
+![https://github.com/imrtn/109082500111/blob/main/Modul9/Output/Soal4.2png](https://github.com/imrtn/109082500111_Imroatun-Sholikha/blob/7117f84b95fcf1f32ee02b795b3707425ff1042b/Modul%209/Output/Soal4.2.png)
 [Program ini membaca karakter ke dalam array sampai tanda titik (.) dimasukkan.
 
 Program kemudian:
