@@ -59,14 +59,9 @@ func main() {
 
 ##### Output 
 ![https://github.com/imrtn/109082500111/blob/main/Modul9/Output/Soal1.png](https://github.com/imrtn/109082500111_Imroatun-Sholikha/blob/7117f84b95fcf1f32ee02b795b3707425ff1042b/Modul%209/Output/Soal1.png)
-[Program ini meminta input dua lingkaran (titik pusat dan radius) serta satu titik. Program menghitung jarak titik ke masing-masing pusat lingkaran menggunakan rumus jarak.
+[Program ini menerima input dua lingkaran (masing-masing berupa koordinat titik pusat dan radius) serta satu titik sembarang. Program menghitung jarak titik tersebut ke masing-masing pusat lingkaran menggunakan rumus jarak.
 
-Jika jarak ≤ radius, maka titik berada di dalam lingkaran.
-Hasilnya berupa posisi titik:
-
-di dalam kedua lingkaran
-di dalam salah satu
-atau di luar keduanya]
+Jika jarak ≤ radius, maka titik berada di dalam lingkaran. Output program menentukan apakah titik berada di dalam lingkaran 1, lingkaran 2, di dalam keduanya, atau di luar keduanya.]
 
 
 ### 2. [Soal]
@@ -148,15 +143,9 @@ func main() {
 ##### Output 
 ![https://github.com/imrtn/109082500111/blob/main/Modul9/Output/Soal2.1.png](https://github.com/imrtn/109082500111_Imroatun-Sholikha/blob/7117f84b95fcf1f32ee02b795b3707425ff1042b/Modul%209/Output/Soal2.1.png))
 ![https://github.com/imrtn/109082500111/blob/main/Modul9/Output/Soa2.21.png](https://github.com/imrtn/109082500111_Imroatun-Sholikha/blob/7117f84b95fcf1f32ee02b795b3707425ff1042b/Modul%209/Output/Soal2.2.png))
-[Program ini mengisi array dengan N bilangan dari pengguna, lalu menampilkan beberapa operasi seperti:
-
-isi array
-indeks ganjil & genap
-indeks kelipatan x
-hapus elemen tertentu
-rata-rata
-standar deviasi
-frekuensi angka tertentu]
+[Program ini menerima input sejumlah N bilangan bulat ke dalam sebuah array. Program kemudian menampilkan seluruh isi array, elemen dengan indeks ganjil, dan elemen dengan indeks genap (dengan asumsi indeks ke-0 adalah genap).
+Selanjutnya, program menerima nilai x dan menampilkan elemen array pada indeks kelipatan x. Program juga dapat menghapus elemen pada indeks tertentu, lalu menampilkan array hasil penghapusan.
+Terakhir, program menghitung dan menampilkan rata-rata, standar deviasi, serta frekuensi kemunculan suatu bilangan tertentu dalam array.]
 
 
 ### 3. [Soal]
@@ -206,16 +195,11 @@ func main() {
 
 ##### Output 
 ![https://github.com/imrtn/109082500111/blob/main/Modul9/Output/Soal3.png](https://github.com/imrtn/109082500111_Imroatun-Sholikha/blob/7117f84b95fcf1f32ee02b795b3707425ff1042b/Modul%209/Output/Soal3.png)
-[Program ini mencatat hasil pertandingan dua klub.
-Pengguna memasukkan skor tiap pertandingan.
+[Program ini menerima input nama dua klub sepak bola yang bertanding. Selanjutnya, program menerima input skor dari setiap pertandingan kedua klub secara berulang.
 
-Program menentukan pemenang:
+Jika skor salah satu klub lebih besar, maka klub tersebut dinyatakan sebagai pemenang. Jika skor sama, maka hasilnya adalah draw. Proses input berhenti ketika salah satu atau kedua skor bernilai negatif.
 
-skor lebih besar = menang
-sama = draw
-
-Nama klub pemenang disimpan dalam array.
-Input berhenti jika ada skor negatif, lalu ditampilkan daftar pemenang]
+Output program menampilkan hasil setiap pertandingan dan diakhiri dengan pesan bahwa pertandingan selesai.]
 
 ### 4. [Soal]
 #### Soal4.go
@@ -287,11 +271,5 @@ func main() {
 ##### Output 
 ![https://github.com/imrtn/109082500111/blob/main/Modul9/Output/Soal4.1png](https://github.com/imrtn/109082500111_Imroatun-Sholikha/blob/7117f84b95fcf1f32ee02b795b3707425ff1042b/Modul%209/Output/Soal4.1.png)
 ![https://github.com/imrtn/109082500111/blob/main/Modul9/Output/Soal4.2png](https://github.com/imrtn/109082500111_Imroatun-Sholikha/blob/7117f84b95fcf1f32ee02b795b3707425ff1042b/Modul%209/Output/Soal4.2.png)
-[Program ini membaca karakter ke dalam array sampai tanda titik (.) dimasukkan.
-
-Program kemudian:
-
-membalik urutan array
-mengecek apakah termasuk palindrom
-
-Palindrom adalah teks yang dibaca sama dari depan maupun belakang]
+[Program ini menerima input sejumlah karakter (teks) yang disimpan ke dalam array hingga tanda titik (.) sebagai penanda akhir input. Program kemudian membalik urutan karakter dalam array dan menampilkannya sebagai reverse teks.
+Program ini merupakan pengembangan dari versi sebelumnya dengan menambahkan fungsi untuk memeriksa palindrom. Selanjutnya, program mengecek apakah teks tersebut merupakan palindrom, yaitu dibaca sama dari depan maupun belakang. Jika iya, maka ditampilkan "Palindrom", jika tidak maka "Bukan palindrom".]
