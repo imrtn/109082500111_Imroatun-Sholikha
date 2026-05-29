@@ -45,7 +45,7 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![https://github.com/imrtn/109082500111/blob/main/Modul9/Output/Soal1.png](https://github.com/imrtn/109082500111_Imroatun-Sholikha/blob/7117f84b95fcf1f32ee02b795b3707425ff1042b/Modul%209/Output/Soal1.png)
+![https://github.com/imrtn/109082500111/blob/main/Modul9/Output/Soal1.png](https://github.com/imrtn/109082500111_Imroatun-Sholikha/blob/da275900b51a9368bfdeb77f1f579f1b2eabf047/Modul%2010/Output/Soal1.png)
 [Program ini dibuat untuk membantu pendataan berat anak kelinci yang akan dijual ke pasar. Pengguna diminta memasukkan jumlah anak kelinci lalu mencatat berat setiap anak dalam satuan kilogram; semua nilai berat disimpan dalam sebuah array bertipe real. Setelah seluruh data terkumpul, program melakukan penelusuran pada array untuk menentukan berat terkecil dan terbesar. Proses pencarian dimulai dengan menginisialisasi nilai minimum dan maksimum dari elemen pertama, kemudian program membandingkan setiap elemen berikutnya dengan nilai sementara tersebut dan memperbaruinya bila ditemukan nilai yang lebih kecil atau lebih besar. Setelah seluruh elemen diproses, program menampilkan berat anak kelinci yang paling ringan dan paling berat sebagai hasil akhir.]
 
 
@@ -106,8 +106,8 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![https://github.com/imrtn/109082500111/blob/main/Modul9/Output/Soal2.1.png](https://github.com/imrtn/109082500111_Imroatun-Sholikha/blob/7117f84b95fcf1f32ee02b795b3707425ff1042b/Modul%209/Output/Soal2.1.png))
-![https://github.com/imrtn/109082500111/blob/main/Modul9/Output/Soa2.21.png](https://github.com/imrtn/109082500111_Imroatun-Sholikha/blob/7117f84b95fcf1f32ee02b795b3707425ff1042b/Modul%209/Output/Soal2.2.png))
+![https://github.com/imrtn/109082500111/blob/main/Modul9/Output/Soal2.1.png](https://github.com/imrtn/109082500111_Imroatun-Sholikha/blob/da275900b51a9368bfdeb77f1f579f1b2eabf047/Modul%2010/Output/Soal2.1.png)
+![https://github.com/imrtn/109082500111/blob/main/Modul9/Output/Soa2.21.png](https://github.com/imrtn/109082500111_Imroatun-Sholikha/blob/da275900b51a9368bfdeb77f1f579f1b2eabf047/Modul%2010/Output/Soal2.2.png)
 [Program ini digunakan untuk mengelompokkan data berat ikan ke dalam beberapa wadah berdasarkan kapasitas yang ditetapkan pengguna. Pertama, program menerima masukan berupa jumlah ikan yang akan dijual, kapasitas tiap wadah, dan berat masing-masing ikan; seluruh berat dicatat secara berurutan ke dalam sebuah array. Selanjutnya program membagi data ikan ke wadah secara berurutan sesuai kapasitas yang diberikan, menghitung total berat di setiap wadah dengan menjumlahkan berat ikan yang berada pada wadah tersebut, dan menampilkan hasil penjumlahan untuk tiap wadah kepada pengguna. Setelah itu program menghitung nilai rata-rata berat antar-wadah dengan cara membagi total seluruh berat wadah dengan jumlah wadah yang terbentuk, sehingga pengguna memperoleh gambaran distribusi berat ikan pada setiap wadah beserta nilai rata-ratanya]
 
 
@@ -172,5 +172,6 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![https://github.com/imrtn/109082500111/blob/main/Modul9/Output/Soal3.png](https://github.com/imrtn/109082500111_Imroatun-Sholikha/blob/7117f84b95fcf1f32ee02b795b3707425ff1042b/Modul%209/Output/Soal3.png)
+![https://github.com/imrtn/109082500111/blob/main/Modul9/Output/Soal3.png](https://github.com/imrtn/109082500111_Imroatun-Sholikha/blob/da275900b51a9368bfdeb77f1f579f1b2eabf047/Modul%2010/Output/Soal3.1.png)
+![https://github.com/imrtn/109082500111/blob/main/Modul9/Output/Soal3.png](https://github.com/imrtn/109082500111_Imroatun-Sholikha/blob/da275900b51a9368bfdeb77f1f579f1b2eabf047/Modul%2010/Output/Soal3.2.png)
 [Program ini dirancang untuk mendukung pencatatan dan analisis data berat badan balita pada kegiatan posyandu. Pengguna memasukkan sejumlah data berat balita yang kemudian disimpan dalam sebuah array, sementara struktur program dirapikan menggunakan subprogram atau fungsi agar proses perhitungan lebih terorganisir dan mudah dipahami. Satu fungsi bertanggung jawab mencari nilai ekstrem—berat minimum dan maksimum—dengan menelusuri array, sedangkan fungsi lain menghitung nilai rata-rata berat seluruh balita berdasarkan jumlah data yang dimasukkan. Setelah seluruh proses selesai, program menampilkan berat balita terkecil, terbesar, dan nilai rata-ratanya dalam satuan kilogram sebagai ringkasan hasil pengolahan data.]
