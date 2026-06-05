@@ -48,7 +48,7 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![https://github.com/imrtn/109082500111/blob/main/Modul9/Output/Soal1.png](https://github.com/imrtn/109082500111_Imroatun-Sholikha/blob/da275900b51a9368bfdeb77f1f579f1b2eabf047/Modul%2010/Output/Soal1.png)
+![https://github.com/imrtn/109082500111/blob/main/Modul9/Output/Soal1.png](https://github.com/imrtn/109082500111_Imroatun-Sholikha/blob/da37ae30fd1d8daec240ad079a52a5e794287730/Modul%2012/Output/Soal1.png)
 [Program ini dibuat untuk membantu proses penghitungan suara dalam pemilihan ketua RT. Pengguna memasukkan data nomor calon yang dipilih oleh warga secara berurutan hingga ditemukan nilai 0 sebagai penanda akhir data. Setiap data yang masuk dihitung sebagai suara masuk, kemudian divalidasi apakah termasuk nomor calon yang sah, yaitu bernilai antara 1 sampai 20. Suara yang valid akan dicatat dan dihitung jumlahnya menggunakan sebuah array yang menyimpan banyaknya suara untuk masing-masing calon. Setelah seluruh data selesai dibaca, program menampilkan jumlah suara masuk, jumlah suara sah, serta daftar nomor calon yang memperoleh suara beserta banyaknya suara yang diterima oleh setiap calon]
 
 
@@ -106,8 +106,8 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![https://github.com/imrtn/109082500111/blob/main/Modul9/Output/Soal2.1.png](https://github.com/imrtn/109082500111_Imroatun-Sholikha/blob/da275900b51a9368bfdeb77f1f579f1b2eabf047/Modul%2010/Output/Soal2.1.png)
-![https://github.com/imrtn/109082500111/blob/main/Modul9/Output/Soa2.21.png](https://github.com/imrtn/109082500111_Imroatun-Sholikha/blob/da275900b51a9368bfdeb77f1f579f1b2eabf047/Modul%2010/Output/Soal2.2.png)
+![https://github.com/imrtn/109082500111/blob/main/Modul9/Output/Soal2.1.png](https://github.com/imrtn/109082500111_Imroatun-Sholikha/blob/da37ae30fd1d8daec240ad079a52a5e794287730/Modul%2012/Output/Soal2.1.png)
+![https://github.com/imrtn/109082500111/blob/main/Modul9/Output/Soa2.21.png](https://github.com/imrtn/109082500111_Imroatun-Sholikha/blob/da37ae30fd1d8daec240ad079a52a5e794287730/Modul%2012/Output/Soal2.2.png)
 [Program ini dibuat untuk membantu proses rekapitulasi hasil pemilihan ketua RT sekaligus menentukan pasangan ketua dan wakil ketua yang terpilih. Pengguna memasukkan data nomor calon yang dipilih warga hingga ditemukan nilai 0 sebagai penanda akhir masukan. Program akan memvalidasi setiap data sehingga hanya nomor calon antara 1 sampai 20 yang dianggap sebagai suara sah dan dihitung ke dalam array pencatatan suara. Setelah seluruh data diproses, program melakukan penelusuran terhadap jumlah suara setiap calon untuk menentukan calon dengan suara terbanyak sebagai ketua RT. Selanjutnya program mencari calon dengan jumlah suara terbanyak kedua sebagai wakil ketua RT. Sebagai hasil akhir, program menampilkan jumlah suara masuk, jumlah suara sah, nomor calon yang terpilih sebagai ketua RT, dan nomor calon yang terpilih sebagai wakil ketua RT.]
 
 
@@ -169,6 +169,6 @@ func posisi(n, k int) int {
 ### Output Unguided :
 
 ##### Output 
-![https://github.com/imrtn/109082500111/blob/main/Modul9/Output/Soal3.png](https://github.com/imrtn/109082500111_Imroatun-Sholikha/blob/da275900b51a9368bfdeb77f1f579f1b2eabf047/Modul%2010/Output/Soal3.1.png)
-![https://github.com/imrtn/109082500111/blob/main/Modul9/Output/Soal3.png](https://github.com/imrtn/109082500111_Imroatun-Sholikha/blob/da275900b51a9368bfdeb77f1f579f1b2eabf047/Modul%2010/Output/Soal3.2.png)
+![https://github.com/imrtn/109082500111/blob/main/Modul9/Output/Soal3.png](https://github.com/imrtn/109082500111_Imroatun-Sholikha/blob/da37ae30fd1d8daec240ad079a52a5e794287730/Modul%2012/Output/Soal3.1.png)
+![https://github.com/imrtn/109082500111/blob/main/Modul9/Output/Soal3.png](https://github.com/imrtn/109082500111_Imroatun-Sholikha/blob/da37ae30fd1d8daec240ad079a52a5e794287730/Modul%2012/Output/Soal3.2.png)
 [Program ini dibuat untuk mencari keberadaan suatu bilangan pada kumpulan data integer yang telah terurut secara membesar (ascending). Pengguna memasukkan jumlah data, nilai yang ingin dicari, serta seluruh elemen array yang sudah dalam keadaan terurut. Data-data tersebut disimpan ke dalam array melalui prosedur pengisian data. Selanjutnya program menggunakan algoritma Binary Search untuk mencari posisi bilangan yang diinginkan. Proses pencarian dilakukan dengan membandingkan nilai yang dicari terhadap elemen tengah array, kemudian mempersempit ruang pencarian ke bagian kiri atau kanan sesuai hasil perbandingan hingga data ditemukan atau ruang pencarian habis. Jika data ditemukan, program menampilkan indeks posisi data tersebut yang dihitung mulai dari 0. Jika data tidak ditemukan, program menampilkan tulisan "TIDAK ADA" sebagai hasil pencarian.]
